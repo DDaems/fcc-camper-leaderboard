@@ -1,0 +1,11 @@
+{
+  "name": "react-fcc-leaderboard",
+  "version": "0.0.0",
+  "description": "Build a Codepen.io app that is functionally similar to this: http://codepen.io/FreeCodeCamp/full/qbqqJm/",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dieter Daems",
+  "license": "MIT"
+}
