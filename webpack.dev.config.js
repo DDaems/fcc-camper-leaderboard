@@ -1,4 +1,5 @@
-var path = require('path');             
+var path = require('path');
+
 module.exports = {
   cache: true,
   entry: [ 
@@ -23,6 +24,14 @@ module.exports = {
       { 
         test: /\.coffee$/, 
         loader: 'coffee-loader'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css'
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style!css!sass'
       },
     ]
   },
